@@ -8,6 +8,7 @@ module.exports = merge(
         context: helpers.resolveFromRootPath('src'),
         resolve: {
             alias: {
+                assets: helpers.resolveFromRootPath('src/assets'),
                 common: helpers.resolveFromRootPath('src/common'),
                 core: helpers.resolveFromRootPath('src/core'),
                 layouts: helpers.resolveFromRootPath('src/layouts'),
@@ -27,7 +28,7 @@ module.exports = merge(
                     loader: 'babel-loader',
                 },
                 {
-                    test: /\.(woff(2)?|eot|ttf|otf|)$/,
+                    test: /\.(png|jpeg)$/,
                     type: "asset/resource",
                 },
                 {
