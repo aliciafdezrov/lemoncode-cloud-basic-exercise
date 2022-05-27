@@ -1,5 +1,5 @@
 {
-  "name": "R&M game",
+  "name": "Lemoncode cloud basic exercise",
   "version": "1.0.0",
   "scripts": {
     "start": "run-p -l type-check:watch start:dev",
