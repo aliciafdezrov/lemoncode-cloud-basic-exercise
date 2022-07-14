@@ -3,7 +3,7 @@ import {store} from "./core/store";
 import {Provider} from "react-redux";
 import {CardGameScene, SplashScene} from "scenes";
 import {NotFound} from "common";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import {appBaseRoutes} from "core";
 
 const App: React.FC = () => {
