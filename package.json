@@ -11,7 +11,8 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "test": "jest -c ./config/test/jest.js --verbose",
-    "test:watch": "npm run test -- --watchAll -i"
+    "test:watch": "npm run test -- --watchAll -i",
+    "deploy": "gh-pages -d dist -b deploy"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
