@@ -1,5 +1,6 @@
 # Laboratorio de Cloud
 
+La aplicación está desplegada en la siguiente [url](https://aliciafdezrov.github.io/lemoncode-cloud-basic-exercise/)
 Este ejercio está divido en varias ramas:
 
 - [master](#master)
