@@ -9,4 +9,9 @@ module.exports = merge(base, {
     filename: './js/[name].[chunkhash].js',
     assetModuleFilename: './images/[hash][ext][query]',
   },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  },
 });
