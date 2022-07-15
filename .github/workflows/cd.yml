@@ -3,7 +3,7 @@ name: Continuous Deployment workflow
 on:
   push:
     branches:
-      - gh-pages-automatic
+      - gh-pages-cd
 jobs:
   cd:
     runs-on: ubuntu-latest
